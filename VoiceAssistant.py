@@ -54,7 +54,7 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
     # Enter your email
-    server.login('jestonpatel9879@gmail.com', 'codesownway0707')
+    server.login('someone@cloud.ai', 'codesownway0707')
     server.sendmail('someone@cloud.ai', to, content)
     server.close()
 
