@@ -55,7 +55,7 @@ def sendEmail(to, content):
     server.starttls()
     # Enter your email
     server.login('jestonpatel9879@gmail.com', 'codesownway0707')
-    server.sendmail('jasonhunts0707@gmail.com', to, content)
+    server.sendmail('someone@cloud.ai', to, content)
     server.close()
 
 if __name__ == "__main__":
